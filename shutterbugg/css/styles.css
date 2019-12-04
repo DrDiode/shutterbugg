@@ -1,0 +1,69 @@
+/*Shutterbug Bootstrap Project 12/3//19*/
+
+.container {
+	max-width: 968px;
+}
+
+.main {
+	background-image: url("../img/intro.png");
+	height: 600px;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.main h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 68px;
+	text-shadow: grey 1px 1px 5px;
+	transition: text-shadow 2s;	
+}
+
+.main h1:hover {
+	text-shadow: black 1px 1px 6px;
+}
+
+.main h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-bottom: 40px;
+}
+
+.btn {
+	font-size: 24px;
+	background-color: ivory;
+	border-radius: 32px;
+	padding: 15px;
+}
+
+.row {
+	padding-top: 30px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.row h1 {
+	font-family: 'Cuprum', sans-serif;
+}
+
+.row p {
+	font-family: 'Cuprum', sans-serif;
+}
+
+#store {
+	text-align: center;
+	border-bottom: 1px solid grey;
+	padding-top: 30px;
+}
+
+.footer {
+	padding-left: 100px;
+}
+
+.footer h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding: 0px;
+}
